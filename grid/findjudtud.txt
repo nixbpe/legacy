@@ -1,0 +1,24 @@
+point Findjudtud(circle x,vector chon,float b)
+{
+    float len;
+    float a;
+    point tmp;
+    vector v;
+    v.x=circle.x-vector.sx;
+    v.y=circle.y-vector.sy;
+    len=Dotvector(v,Unitvector(chon));
+    a=(circle.r*circle.r)-(b*b);
+    len=len-a;
+    chon=unitvector(chon);
+    chon.x=chon.x*len;
+    chon.y=chon.y*len;
+    tmp.x=chon.x+chon.sx;
+    tmp.y=chon.y+chon.sy;  
+    return tmp;
+}
+
+typedef struct point
+{
+    var x;
+    vary y;
+}point;

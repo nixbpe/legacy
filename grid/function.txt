@@ -1,0 +1,41 @@
+vector Plus(vector x,vector y)
+{
+       vector res;
+       res.x = x.x+y.x;
+       res.y = x.y+y.y;
+       return res;
+}
+vector Minus(vector x,vector y)
+{
+       vector res;
+       res.x = x.x-y.x;
+       res.y = x.y-y.y;
+       return res;
+}
+vector Unitvector(vector x)
+{
+    float length=absoulute(x);
+    x.x=x.x/length;
+    x.y=x.y/length;
+    return x;
+}
+vector Findnew(vector in,vector r)
+{
+       vector u;
+       vector res;
+       u.x = -r.y; // y
+       u.y = r.x;  // -x
+       float angle = acos(dotvector(u,in)/(absolute(in)*absolute(u)));
+       if(angle > 22.0/7.0)
+       {
+                u.x = r.y;
+                u.y = -r.x;     
+       }
+       in.x = -in.x;
+       in.y = -in.y;
+       u = Unitvector(u);
+       vector temp;
+       temp.x = 2*Dotvector(in,u);
+       temp.y = 2*Dotvector(in,u);
+       return minus(in,Dotvector(temp,in));
+}

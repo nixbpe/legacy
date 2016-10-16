@@ -1,0 +1,113 @@
+typedef float var;
+typedef struct vector
+{
+        var x;
+        var y;
+        float sx;
+        float sy;
+}vector;
+typedef struct circle
+{
+        var x;
+        var y;
+        var r;
+}circle;
+
+typedef struct point
+{
+    var x;
+    var y;
+}point;
+
+var dotvector(vector x,vector y)
+{    
+     var sum = x.x*y.x + x.y*y.y;
+     return sum;   
+}
+var absolute(vector x)
+{
+     var temp;
+     temp = sqrt((x.x*x.x)+(x.y*x.y));
+     return temp;
+}
+
+vector Unitvector(vector x)
+{
+    float length=absoulute(x);
+    x.x=x.x/length;
+    x.y=x.y/length;
+    return x;
+}
+
+point Findjudtud(circle x,vector chon,float b)
+{
+    float len;
+    float a;
+    point tmp;
+    vector v;
+    v.x=x.x-chon.sx;
+    v.y=x.y-chon.sy;
+    len=Dotvector(v,Unitvector(chon));
+    a=(x.r*x.r)-(b*b);
+    len=len-a;
+    chon=Unitvector(chon);
+    chon.x=chon.x*len;
+    chon.y=chon.y*len;
+    tmp.x=chon.x+chon.sx;
+    tmp.y=chon.y+chon.sy;  
+    return tmp;
+}
+
+	vector Plus(vector x,vector y)
+{
+       vector res;
+       res.x = x.x+y.x;
+       res.y = x.y+y.y;
+       res.sx = 0;
+       res.sy = 0;
+       return res;
+}
+vector Minus(vector x,vector y)
+{
+       vector res;
+       res.x = x.x-y.x;
+       res.y = x.y-y.y;
+       res.sx = 0;
+       res.sy = 0;
+       return res;
+}
+vector Unitvector(vector x)
+{
+    float length=absoulute(x);
+    x.x=x.x/length;
+    x.y=x.y/length;
+    return x;
+}
+vector Findnew(vector in,point judtud,point circle)
+{
+       vector u;
+       vector temp;
+       u.x = -(circle.y-judtud.y); //- y
+       u.y = circle.x-judtud.x;  // x
+       u.sx = 0;
+       u.sy = 0;
+       float angle = acos(Dotvector(u,in)/(absolute(in)*absolute(u)));
+       if(angle > 22.0/7.0)
+       {
+                u.x = circle.y-judtud.y;
+                u.y = -(circle.x-judtud.x);     
+       }
+       u = Unitvector(u);
+       in.x = -in.x;
+       in.y = -in.y;
+       temp.x = 2*Dotvector(in,u);
+       temp.y = 2*Dotvector(in,u);
+       temp.sx = 0;
+       temp.sy = 0;
+       u.x = u.x*temp.x;
+       u.y = u.y*temp.y;
+       temp = Minus(in,u);
+       temp.sx = judtud.x;
+       temp.sy = judtud.y;
+       return temp;
+}
