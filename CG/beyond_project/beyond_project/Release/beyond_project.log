@@ -1,0 +1,35 @@
+﻿Build started 17/10/2554 19:02:09.
+     1>Project "C:\Users\kung\Dropbox\CG (1)\beyond_project\beyond_project\beyond_project.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\beyond_project.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kung\Dropbox\CG (1)\beyond_project\Release\beyond_project.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\beyond_project.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kung\Dropbox\CG (1)\beyond_project\Release\beyond_project.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kung\Dropbox\CG (1)\beyond_project\Release\beyond_project.lib" /MACHINE:X86 Release\glm.obj
+         Release\glmimg.obj
+         Release\imageloader.obj
+         Release\main.obj
+         Release\Texture.obj
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alDeleteBuffers
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alutUnloadWAV
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alGenSources
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alSourcef
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alSourcePlay
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alSourcei
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alutExit
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alGenBuffers
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alListenerfv
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alSourceStop
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alDeleteSources
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alutInit
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alutLoadWAVFile
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alBufferData
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alSourceRewind
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alGetError
+     1>main.obj : error LNK2001: unresolved external symbol __imp__alSourcefv
+     1>C:\Users\kung\Dropbox\CG (1)\beyond_project\Release\beyond_project.exe : fatal error LNK1120: 17 unresolved externals
+     1>Done Building Project "C:\Users\kung\Dropbox\CG (1)\beyond_project\beyond_project\beyond_project.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.16

@@ -1,0 +1,71 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 13.10.2011 15:45:59
+
+newmtl Material__25
+	Ns 75.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.4500 0.4500 0.4500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ALUM_1a.tga
+	map_Kd ALUM_1a.tga
+	map_refl Map__5_Raytrace.tga
+
+newmtl DarkMetal_armor_
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.1800 0.1800 0.1800
+	Ke 0.0000 0.0000 0.0000
+	map_Ka LEADPLAT.tga
+	map_Kd LEADPLAT.tga
+	map_bump -bm -0.5000 LEADPLAT.tga
+
+newmtl BlackforMotors
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0184 0.0184 0.0184
+	Ke 1.0000 1.0000 1.0000
+
+newmtl AluMetal
+	Ns 30.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ALUM_1a.tga
+	map_Kd ALUM_1a.tga
+	map_refl ALUM_1a.tga
+
+newmtl wire_176026026
+	Ns 32.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6902 0.1020 0.1020
+	Ks 0.3500 0.3500 0.3500
+	Ke 0.0000 0.0000 0.0000

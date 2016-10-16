@@ -1,0 +1,24 @@
+﻿Build started 14/10/2554 2:56:22.
+     1>Project "C:\Users\kung\Dropbox\CG (1)\sound\main.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Debug\main.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\kung\dropbox\cg (1)\sound\main.cpp(125): warning C4996: 'alutLoadWAVFile': was declared deprecated
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\al\alut.h(113) : see declaration of 'alutLoadWAVFile'
+     1>c:\users\kung\dropbox\cg (1)\sound\main.cpp(127): warning C4996: 'alutUnloadWAV': was declared deprecated
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\al\alut.h(116) : see declaration of 'alutUnloadWAV'
+     1>c:\users\kung\dropbox\cg (1)\sound\main.cpp(218): warning C4996: 'getche': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getche. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(129) : see declaration of 'getche'
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\main.exe.embed.manifest.res" .\Debug\main_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\main.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib openal32.lib alut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\main.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kung\Dropbox\CG (1)\sound\Debug\main.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\main.lib" /MACHINE:X86 .\Debug\main.exe.embed.manifest.res
+         .\Debug\main.obj
+     1>LINK : fatal error LNK1104: cannot open file 'openal32.lib'
+     1>Done Building Project "C:\Users\kung\Dropbox\CG (1)\sound\main.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.50

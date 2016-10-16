@@ -1,0 +1,228 @@
+﻿Build started 17/10/2554 19:02:37.
+     1>Project "C:\Users\kung\Dropbox\CG (1)\beyond_project\beyond_project\beyond_project.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\beyond_project.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\beyond_project.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt glm.cpp glmimg.cpp imageloader.cpp main.cpp Texture.cpp
+         Texture.cpp
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\texture.cpp(14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         main.cpp
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(32): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(55): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(59): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(60): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(72): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(74): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(78): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(85): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(98): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(101): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(111): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(114): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(165): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(170): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(187): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(198): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(226): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(237): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(289): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(348): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(350): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(358): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(389): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(461): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(593): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(597): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(598): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(599): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(600): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(601): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(601): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(722): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(724): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(760): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(860): warning C4482: nonstandard extension used: enum 'state' used in qualified name
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(941): warning C4996: 'alutLoadWAVFile': was declared deprecated
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\al\alut.h(113) : see declaration of 'alutLoadWAVFile'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\main.cpp(943): warning C4996: 'alutUnloadWAV': was declared deprecated
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\al\alut.h(116) : see declaration of 'alutUnloadWAV'
+         imageloader.cpp
+         glmimg.cpp
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glmimg.cpp(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glmimg.cpp(29): warning C4101: 'xPow2' : unreferenced local variable
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glmimg.cpp(30): warning C4101: 'iyPow2' : unreferenced local variable
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glmimg.cpp(28): warning C4101: 'rdata' : unreferenced local variable
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glmimg.cpp(32): warning C4101: 'retval' : unreferenced local variable
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glmimg.cpp(29): warning C4101: 'yPow2' : unreferenced local variable
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glmimg.cpp(30): warning C4101: 'ixPow2' : unreferenced local variable
+         glm.cpp
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(192): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(237): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(262): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(272): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(279): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(281): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(290): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(321): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(322): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(325): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(335): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(344): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(376): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(380): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(388): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(390): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(394): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(405): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(411): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(417): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(429): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(434): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(468): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(469): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(473): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(526): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(557): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(558): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(577): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(581): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(582): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(583): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(586): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(590): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(592): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(593): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(596): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(600): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(602): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(603): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(606): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(612): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(613): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(616): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(677): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(689): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(694): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(703): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(709): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(716): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(736): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(740): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(747): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(750): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(755): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(765): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(771): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(775): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(781): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(795): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(799): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(802): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(807): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(821): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(823): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(825): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(829): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(1418): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(1427): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(1540): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(1937): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(1958): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(1960): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\kung\dropbox\cg (1)\beyond_project\beyond_project\glm.cpp(1962): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kung\Dropbox\CG (1)\beyond_project\Debug\beyond_project.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32" OpenAL32.lib "EFX-Util.lib" ALut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\beyond_project.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kung\Dropbox\CG (1)\beyond_project\Debug\beyond_project.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kung\Dropbox\CG (1)\beyond_project\Debug\beyond_project.lib" /MACHINE:X86 Debug\glm.obj
+         Debug\glmimg.obj
+         Debug\imageloader.obj
+         Debug\main.obj
+         Debug\Texture.obj
+         beyond_project.vcxproj -> C:\Users\kung\Dropbox\CG (1)\beyond_project\Debug\beyond_project.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\kung\Dropbox\CG (1)\beyond_project\Debug\beyond_project.exe;#1" /manifest Debug\beyond_project.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\beyond_project.unsuccessfulbuild".
+         Touching "Debug\beyond_project.lastbuildstate".
+     1>Done Building Project "C:\Users\kung\Dropbox\CG (1)\beyond_project\beyond_project\beyond_project.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.21

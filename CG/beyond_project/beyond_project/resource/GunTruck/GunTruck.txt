@@ -1,0 +1,12 @@
+./GunTruck/Body.obj 
+./GunTruck/Body_Glass.obj
+./GunTruck/GlassFrame.obj 
+./GunTruck/WheelFR_Tire.obj  
+./GunTruck/WheelFR_Plate.obj  
+./GunTruck/WheelFL_Tire.obj 
+./GunTruck/WheelFL_Plate.obj 
+./GunTruck/WheelBR_Tire.obj  
+./GunTruck/WheelBR_Plate.obj  
+./GunTruck/WheelBL_Tire.obj 
+./GunTruck/WheelBL_Plate.obj 
+./GunTruck/Radar.obj 

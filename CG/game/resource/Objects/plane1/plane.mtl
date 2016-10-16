@@ -1,0 +1,181 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 12.10.2011 17:48:35
+
+newmtl Material__1
+	Ns 55.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1791 0.0654 0.0654
+	Kd 0.5373 0.1961 0.1961
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka map1\Defaul.tga
+	map_Kd map1\Defaul.tga
+
+newmtl Material__6
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2549 0.2549 0.2549
+	Kd 0.3608 0.3608 0.3608
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl anthracite
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0392 0.0392 0.0392
+	Kd 0.0980 0.0980 0.0980
+	Ks 0.1980 0.1980 0.1980
+	Ke 0.0000 0.0000 0.0000
+
+newmtl red
+	Ns 55.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1791 0.0654 0.0654
+	Kd 0.5373 0.1961 0.1961
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka map1\red.tga
+	map_Kd map1\red.tga
+
+newmtl grey
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1843 0.1843 0.1843
+	Kd 0.5529 0.5529 0.5529
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+
+newmtl trans
+	Ns 66.0000
+	Ni 1.5000
+	d 0.4000
+	Tr 0.4000
+	Tf 0.4000 0.4000 0.4000 
+	illum 2
+	Ka 0.0392 0.0392 0.0392
+	Kd 0.0980 0.0980 0.0980
+	Ks 0.4950 0.4950 0.4950
+	Ke 0.0000 0.0000 0.0000
+
+newmtl fin
+	Ns 55.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1791 0.0654 0.0654
+	Kd 0.5373 0.1961 0.1961
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka map1\fin.tga
+	map_Kd map1\fin.tga
+	map_bump -bm 0.0200 map1\fin1.tga
+
+newmtl nose
+	Ns 55.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1791 0.0654 0.0654
+	Kd 0.5373 0.1961 0.1961
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka map1\nose.tga
+	map_Kd map1\nose.tga
+
+newmtl fus
+	Ns 55.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1791 0.0654 0.0654
+	Kd 0.5373 0.1961 0.1961
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka map1\fus2.tga
+	map_Kd map1\fus2.tga
+	map_bump -bm 0.0200 map1\fus1.tga
+
+newmtl panel
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0641 0.1033 0.1817
+	Kd 0.1922 0.3098 0.5451
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka map1\panel.tga
+	map_Kd map1\panel.tga
+
+newmtl tail
+	Ns 55.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1791 0.0654 0.0654
+	Kd 0.5373 0.1961 0.1961
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka map1\Defaul.tga
+	map_Kd map1\Defaul.tga
+	map_bump -bm 0.0200 map1\tail1.tga
+
+newmtl lwin
+	Ns 55.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1791 0.0654 0.0654
+	Kd 0.5373 0.1961 0.1961
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka map1\lwin3.tga
+	map_Kd map1\lwin3.tga
+	map_bump -bm 0.0200 map1\lwin1.tga
+
+newmtl rwin
+	Ns 55.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1791 0.0654 0.0654
+	Kd 0.5373 0.1961 0.1961
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka map1\rwin4.tga
+	map_Kd map1\rwin4.tga
+	map_bump -bm 0.0200 map1\lwin1.tga
